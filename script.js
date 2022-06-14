@@ -80,7 +80,7 @@ class Mixer {
         }
     }
     maxTime() {
-        return this.properties.includes("Fast") ? 2000 : 4000;
+        return this.properties.includes("Fast Blending") ? 2000 : 4000;
     }
     addColor(color) {
         if (!this.color1) this.color1 = color;
